@@ -1,0 +1,32 @@
+ng new
+npm i bootstrap
+npm i @popperjs/core
+npm i bootstrap-icons
+"styles": [
+              "src/styles.css",
+             "./node_modules/bootstrap/dist/css/bootstrap.min.css"
+              
+            ],
+            "scripts": [
+              "./node_modules/bootstrap/dist/js/bootstrap.min.js",
+ "./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+            ]
+npm install @fortawesome/fontawesome-free
+ng add @ng-bootstrap/ng-bootstrap
+
+
+ng new my-angular-app --no--standalone
+ng new S2T --standalone false
+
+
+<app-header>
+<app-side>
+<app-main>
+<app-footer>
+
+
+Without logging in to Avaya Communicator, Avaya Agent Desktop is get logging in . So that in-service or out service not properly getting updated in our application. Pleae look into this. 
+
+7339141306
+
+10032000
