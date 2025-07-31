@@ -1,0 +1,92 @@
+ Core Angular Interview Questions
+What are standalone components in Angular 16?
+
+What is the difference between NgModule and standalone components?
+
+Explain the Angular lifecycle hooks.
+
+How does Angular's change detection work?
+
+What are signals in Angular 16 and how do they differ from RxJS observables?
+
+How do you handle forms in Angular? Difference between template-driven and reactive forms.
+
+What is zone.js and how is it used in Angular?
+
+🔹 New Angular 16 Features
+✅ Explain Angular Signals – How do they replace RxJS or complement it?
+
+✅ What is the @inject() function introduced in Angular 16?
+
+✅ What is the new destroyRef() API in Angular 16?
+
+✅ Describe defer blocks in Angular 16 and how they help with lazy loading content.
+
+✅ What is hydration in Angular 16 (SSR support)?
+
+✅ How is @input({ required: true }) helpful?
+
+✅ Difference between EnvironmentInjector and Injector.
+
+🔹 Component & Template Questions
+How do you use @ViewChild, @ViewChildren, @ContentChild, and @ContentChildren?
+
+What is content projection and how does <ng-content> work?
+
+What are host bindings and host listeners?
+
+How would you lazy load a standalone component in Angular 16?
+
+🔹 Routing Questions
+How do you implement lazy loading for a route?
+
+What is the difference between RouterModule.forRoot() and RouterModule.forChild()?
+
+How do route guards work (CanActivate, CanDeactivate, etc.)?
+
+Explain parameterized routes and how to pass data through routes.
+
+How to use resolve in routing and why?
+
+🔹 RxJS & Observables
+How does Angular handle asynchronous data?
+
+Difference between Observable, Subject, and BehaviorSubject.
+
+How do you unsubscribe from observables and why is it important?
+
+What are some common RxJS operators you use (like switchMap, mergeMap, debounceTime)?
+
+Difference between async pipe and manual subscribe()
+
+🔹 Performance & Best Practices
+What are OnPush change detection and its benefits?
+
+How do you optimize an Angular app for performance?
+
+What are the best practices for state management in Angular?
+
+When should you use ngOnDestroy() and how?
+
+How to debug memory leaks in Angular apps?
+
+🔹 Testing
+How do you unit test a component/service in Angular?
+
+What are TestBed, Jasmine, and Karma?
+
+How do you test HTTP requests with HttpClientTestingModule?
+
+What is the difference between shallow and deep testing?
+
+🔹 Real-time Angular Scenarios (4+ years level)
+❓ How did you implement role-based access in your Angular project?
+
+❓ How do you share data between unrelated components?
+
+❓ How do you structure a large-scale Angular project?
+
+❓ Explain a complex bug you fixed in Angular and how you approached it.
+
+❓ How do you use Angular in micro frontend architecture?
+

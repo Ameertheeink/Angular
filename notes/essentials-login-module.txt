@@ -1,0 +1,65 @@
+ Essential Features for a Login Module
+1. Login UI (Reactive Forms)
+Email/username and password input
+
+Reactive Forms with:
+
+FormGroup, FormControl
+
+Validators.required, Validators.email, Validators.minLength
+
+2. Auth Service
+Login API integration using HttpClient
+
+Methods:
+
+login(credentials)
+
+logout()
+
+isAuthenticated()
+
+getUserRole() (optional)
+
+3. JWT Token Handling
+Store token in localStorage or sessionStorage
+
+Decode token to get user role or expiration
+
+Auto-expiry handling (optional)
+
+4. Error Handling
+Invalid credentials
+
+Server errors
+
+Form validation errors
+
+5. Router Navigation
+Redirect to dashboard on successful login
+
+Redirect to login page if unauthenticated
+
+6. AuthGuard
+Protect routes using a CanActivate guard
+
+Redirect to login if token not found or expired
+
+ts
+Copy
+Edit
+canActivate(): boolean {
+  return this.authService.isAuthenticated() ? true : this.router.navigate(['/login']);
+}
+7. Interceptor
+Add JWT token to every outgoing HTTP request
+
+ts
+Copy
+Edit
+req = req.clone({
+  setHeaders: {
+    Authorization: `Bearer ${token}`
+  }
+});
+Also handle 401 Unauthorized globally
